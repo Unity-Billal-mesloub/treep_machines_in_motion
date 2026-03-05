@@ -1,11 +1,6 @@
 treep_machines_in_motion
 ------------------------
 
-The code base of the machines-in-motion organization is compose of a lot of
-different packages.
-Hence we use [treep](https://gitlab.is.tue.mpg.de/amd-clmc/treep) in order to
-manage the download of our code base.
-
 This repository contains treep configurations for the two main organization And several more organization are defined because of our code base dependencies:
 - https://github.com/Unity-Billal-mesloub/
 
