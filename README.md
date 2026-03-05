@@ -6,21 +6,9 @@ different packages.
 Hence we use [treep](https://gitlab.is.tue.mpg.de/amd-clmc/treep) in order to
 manage the download of our code base.
 
-This repository contains treep configurations for the two main organization:
-- https://github.com/machines-in-motion/
-- https://github.com/open-dynamic-robot-initiative/
+This repository contains treep configurations for the two main organization And several more organization are defined because of our code base dependencies:
+- https://github.com/Unity-Billal-mesloub/
 
-And several more organization are defined because of our code base dependencies:
-- https://github.com/stack-of-tasks/
-- https://github.com/MPI-IS/
-- https://gepgitlab.laas.fr/loco-3d/
-- https://github.com/pybind/
-- https://github.com/stack-of-tasks/
-- https://github.com/humanoid-path-planner/
-- https://github.com/Gepetto/
-- https://github.com/laas/
-- https://github.com/jrl-umi3218/
-- potentially more...
 
 ### Installation:
 
@@ -37,7 +25,7 @@ simply clone the repository:
 ```
 mkdir ~/devel
 cd ~/devel
-git clone git@github.com:machines-in-motion/treep_machines_in_motion.git
+git clone git@github.com:Unity-Billal-mesloub/treep_machines_in_motion.git
 ```
 
 #### Build the package
@@ -54,7 +42,7 @@ Hence if you need to build a repository from scratch, you should clone the
 corresponding treep project in order to clone the package and it's dependencies.
 
 For example for our demonstration package called
-[package_template](https://github.com/machines-in-motion/package_template)
+[package_template](https://github.com/Unity-Billal-mesloub/package_template)
 - cloning the package alone:
     ```
     treep --clone package_template
@@ -74,7 +62,4 @@ this repository is always under development so don't be surprise if an
 expected project name is not available.
 Please create an issue on github in this repository.
 ```
-### License and Copyrights
 
-License BSD-3-Clause
-Copyright (c) 2021, New York University and Max Planck Gesellschaft.
